@@ -1643,24 +1643,45 @@ define(function (require) {
                if (typeof theme === 'string') {
                     // 默认主题
                     switch (theme) {
-                        case 'macarons':
-                            theme = require('./theme/macarons');
-                            break;
-                        case 'infographic':
-                            theme = require('./theme/infographic');
-                            break;
                         case 'dark':
-                            theme = require('./theme/dark');
-                            break;
-                        case 'roma':
-                            theme = require('./theme/roma');
-                            break;
+                        	theme = require('./theme/dark');
+                        	break;
+                        case 'infographic':
+                        	theme = require('./theme/infographic');
+                        	break;
+                        case 'blue':
+                        	theme = require('./theme/blue');
+                        	break;
+                        case 'macarons2':
+                        	theme = require('./theme/macarons2');
+                        	break;
+                        case 'sakura':
+                        	theme = require('./theme/sakura');
+                        	break;
+                        case 'gray':
+                        	theme = require('./theme/gray');
+                        	break;
+                        case 'green':
+                        	theme = require('./theme/green');
+                        	break;
+                        case 'red':
+                        	theme = require('./theme/red');
+                        	break;
+                        case 'macarons':
+                        	theme = require('./theme/macarons');
+                        	break;
+                        case 'helianthus':
+                        	theme = require('./theme/helianthus');
+                        	break;
+                        case 'mint':
+                        	theme = require('./theme/mint');
+                        	break;
                         case 'shine':
-                            theme = require('./theme/shine');
-                            break;
-                        case 'vintage':
-                            theme = require('./theme/vintage');
-                            break;
+                        	theme = require('./theme/shine');
+                        	break;
+                        case 'roma':
+                        	theme = require('./theme/roma');
+                        	break;
                         default:
                             theme = {}; // require('./theme/default');
                     }
