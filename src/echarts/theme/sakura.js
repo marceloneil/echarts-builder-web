@@ -1,4 +1,6 @@
-define({
+define(function(){
+    
+theme = {
     // 全图默认背景
     // backgroundColor: 'rgba(0,0,0,0)',
     
@@ -170,4 +172,6 @@ define({
             }
         }
     }
+};
+    return theme;
 });
