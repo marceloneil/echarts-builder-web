@@ -29,6 +29,10 @@ define(function (require) {
     }
 
     function jsCompress(source) {
+        var blob = new Blob([source], {
+                type: 'text/plain;charset=utf8'
+            });
+        saveAs(blob, 'uncompressed.js');
         var ast = UglifyJS.parse(source);
         /* jshint camelcase: false */
         // compressor needs figure_out_scope too
