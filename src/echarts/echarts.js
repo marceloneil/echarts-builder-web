@@ -1649,6 +1649,18 @@ define(function (require) {
                         case 'infographic':
                             theme = require('./theme/infographic');
                             break;
+                        case 'dark':
+                            theme = require('./theme/dark');
+                            break;
+                        case 'roma':
+                            theme = require('./theme/roma');
+                            break;
+                        case 'shine':
+                            theme = require('./theme/shine');
+                            break;
+                        case 'vintage':
+                            theme = require('./theme/vintage');
+                            break;
                         default:
                             theme = {}; // require('./theme/default');
                     }
