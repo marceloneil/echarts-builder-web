@@ -1,4 +1,6 @@
-define({
+define(function(){
+    
+theme = {
     color: ['#E01F54','#b8d2c7','#f5e8c8','#001852','#c6b38e',
             '#a4d8c2','#f3d999','#d3758f','#dcc392','#2e4783',
             '#82b6e9','#ff6347','#a092f1','#0a915d','#eaf889',
@@ -161,4 +163,6 @@ define({
             }
         }
     }
+};
+    return theme;
 });
