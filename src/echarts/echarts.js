@@ -1664,9 +1664,6 @@ define(function (require) {
                         case 'macarons':
                             theme = require('./theme/macarons');
                             break;
-                        case 'macarons2':
-                            theme = require('./theme/macarons2');
-                            break;
                         case 'mint':
                             theme = require('./theme/mint');
                             break;
