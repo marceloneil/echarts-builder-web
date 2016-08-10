@@ -89,7 +89,9 @@ define(function (require) {
         }
 
         builderLog('<br />Assembling code...');
-
+        
+        code += 'define(\'themeList\', [], function(){ return [\'macarons\'];})'
+        
         for (var id in esl.modules) {
             var moduleInfo = esl.modules[id];
             // Not a echarts/zrender module
