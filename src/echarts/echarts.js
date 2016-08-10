@@ -1642,8 +1642,8 @@ define(function (require) {
             if (theme) {
                if (typeof theme === 'string') {
                     // 默认主题
+                    console.log(require('./themeList'));
                     switch (theme) {
-                        console.log(require('./themeList'));
                         case 'blue':
                             theme = require('./theme/blue');
                             break;
