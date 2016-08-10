@@ -19,6 +19,7 @@ define(function (require) {
     var ecConfig = require('./config');
     var zrUtil = require('zrender/tool/util');
     var zrEvent = require('zrender/tool/event');
+    var themeList = require('./themeList');
 
     var self = {};
 
@@ -1643,6 +1644,7 @@ define(function (require) {
                if (typeof theme === 'string') {
                     // 默认主题
                     switch (theme) {
+                        console.log(themeList);
                         case 'blue':
                             theme = require('./theme/blue');
                             break;
